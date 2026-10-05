@@ -1,0 +1,15 @@
+# Data (large raw extracts and generated intermediates) — shared out-of-band
+/data/*
+!/data/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Generated analysis report is large; regenerate with `python -m src.eda`
+/reports/pdm_report.html
+/reports/eda_report.html
+models/

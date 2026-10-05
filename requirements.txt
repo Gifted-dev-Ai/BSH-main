@@ -1,0 +1,23 @@
+# Core data analysis & EDA pipeline
+pandas>=2.0
+numpy>=1.24
+plotly>=5.20
+pyarrow>=14.0
+
+# Statistics & machine-learning models (AutoML, early-factors, RUL, staging)
+scipy>=1.11
+scikit-learn>=1.4,<1.6      # pinned <1.6 for scikit-survival 0.23 compatibility
+lightgbm>=4.0
+joblib>=1.3
+
+# Survival analysis (Random Survival Forest / Cox PH reformulation of run-to-failure)
+scikit-survival>=0.23
+
+# Maintenance ontology / knowledge graph
+networkx>=3.0
+
+# Sequence deep-learning models (LSTM / GRU / CNN over raw sequences)
+torch>=2.3
+
+# Notebooks (optional, for exploratory work in notebooks/)
+jupyterlab>=4.0
